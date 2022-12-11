@@ -29,7 +29,7 @@ a {
 }
 
 #home-msg {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 a:hover {
@@ -255,6 +255,10 @@ img {
     .skill-custom:hover .skill-custom-image img {
         transform: scale(1.1);
     }
+
+    #home-msg {
+        font-size: 26px;
+    }
 }
 
 
@@ -290,6 +294,10 @@ img {
     
     .skill-custom:hover .skill-custom-image img {
         transform: scale(1.1);
+    }
+
+    #home-msg {
+        font-size: 30px;
     }
 }
 
