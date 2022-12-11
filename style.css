@@ -67,10 +67,6 @@ img {
     box-shadow: -6px 6px 0 0 var(--color-brand);
 }
 
-#download-text {
-    
-}
-
 /* NAVBAR */
 .navbar {
     background-color: var(--color-base);
@@ -154,6 +150,21 @@ img {
     width: 100%;
 }
 
+/* SKILLS */
+.skill-custom .skill-custom-image {
+    overflow: hidden;
+}
+
+.skill-custom .skill-custom-image img {
+    transition: all 0.4s ease;
+    height: 60px;
+}
+
+.skill-custom:hover .skill-custom-image img {
+    transform: scale(1.1);
+}
+
+
 /* CARD */
 .card-custom .card-custom-image {
     overflow: hidden;
@@ -200,7 +211,7 @@ img {
 }
 
 .display-pic {
-    height: 450px;
+    height: 420px;
     object-fit: cover;
 }
 
@@ -231,6 +242,19 @@ img {
         background-color: var(--color-base);
         border-radius: 100px;
     }
+
+    .skill-custom .skill-custom-image {
+        overflow: hidden;
+    }
+    
+    .skill-custom .skill-custom-image img {
+        transition: all 0.4s ease;
+        height: 110px;
+    }
+    
+    .skill-custom:hover .skill-custom-image img {
+        transform: scale(1.1);
+    }
 }
 
 
@@ -252,7 +276,34 @@ img {
     }
 
     .display-pic {
-        height: 450px;
+        height: 420px;
+    }
+
+    .skill-custom .skill-custom-image {
+        overflow: hidden;
+    }
+    
+    .skill-custom .skill-custom-image img {
+        transition: all 0.4s ease;
+        height: 110px;
+    }
+    
+    .skill-custom:hover .skill-custom-image img {
+        transform: scale(1.1);
     }
 }
 
+@media (min-width: 1200px) {
+    .skill-custom .skill-custom-image {
+        overflow: hidden;
+    }
+    
+    .skill-custom .skill-custom-image img {
+        transition: all 0.4s ease;
+        height: 130px;
+    }
+    
+    .skill-custom:hover .skill-custom-image img {
+        transform: scale(1.1);
+    }
+}
